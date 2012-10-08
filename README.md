@@ -5,6 +5,8 @@ A simple boilerplate for [Easel.js][easeljs]. Makes it quick, easy and fun to ge
 
 Inspired by the great, albeit slightly outdated, work by [Doug Winnie][sfdesigner].
 
+![Screenshot](https://dl.dropbox.com/u/202350/github/easeljs_boilerplate.png)
+
 Credits
 -------
 
