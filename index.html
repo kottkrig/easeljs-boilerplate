@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Easel.js Boilerplate</title>
+        <meta name="description" content="A simple boilerplate for Easel.js. Makes it quick, easy and fun to get up and running with a new project.">
+
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+
+        <p>Welcome to my humble boilerplate project for <a href="http://www.createjs.com/#!/EaselJS">Easel.js</a>. Below is the canvas element that is used by easel. It is 400 × 400 in size. </p>
+
+        <canvas id="stage" width="400" height="400"></canvas>
+
+        <script>
+            var createjs = window;
+        </script>
+
+        <script src="//code.createjs.com/easeljs-0.5.0.min.js"></script>
+        <script>window.createjs || document.write('<script src="js/vendor/easeljs-0.5.0.min.js"><\/script>')</script>
+        
+        <script src="js/main.js"></script>
+    </body>
+</html>
